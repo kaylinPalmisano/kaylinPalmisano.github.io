@@ -4,7 +4,8 @@ var imgs = ["IMG_7252.jpg", "IMG_7115.jpg"], k=0;
    if (k++ == imgs.length) 
    {
      k=0; 
-     setTimeout('changeImg()', 3000); 
    }
+   
+   setTimeout('changeImg()', 3000); 
  } 
  onload=function(){setTimeout('changeImg()', 3000)} 
