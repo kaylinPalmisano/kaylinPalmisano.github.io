@@ -18,7 +18,7 @@ function gestureStart() {
 }
  function changeImg() { 
    document.getElementById("myimg").src = imgs[k]; 
-   if (k++ == imgs.length ) 
+   if (k++ == imgs.length - 1) 
    {
      k=0; 
    }
