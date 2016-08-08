@@ -1,10 +1,16 @@
-var imgs = ["IMG_7115.jpg", "IMG_7252.jpg"], k=0;
- function changeImg() { 
-   document.getElementById("myimg").src = imgs[k]; 
-   if (k++ == imgs.length) 
-   {
-     k=0; 
-     setTimeout('changeImg()', 3000);
-   }
- } 
-  onload=function(){setTimeout('changeImg()', 3000)}
+
+function displayNextImage() {
+ x = (x === images.length - 1) ? 0 : x + 1;
+ document.getElementById("myimg").src = images[x];
+}
+
+function displayPreviousImage() {
+ x = (x <= 0) ? images.length - 1 : x - 1;
+ document.getElementById("myimg").src = images[x];
+}
+
+function startTimer() {
+ setInterval(displayNextImage, 3000);
+}
+
+var images = ["IMG_7115.jpg", "IMG_7252.jpg"], x = -1;
