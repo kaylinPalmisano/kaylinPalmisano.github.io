@@ -10,7 +10,7 @@ function displayPreviousImage() {
 }
 
 function startTimer() {
- setInterval(displayNextImage, 3000);
+ setInterval(displayNextImage, 5000);
 }
 
 var images = ["IMG_7115.jpg", "IMG_7252.jpg"], x = -1;
