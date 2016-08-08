@@ -1,5 +1,6 @@
 var metas = document.getElementsByTagName('meta');
 var i;
+var imgs = ["IMG_752.jpg", "IMG_7115.jpg"], k=0;
 if (navigator.userAgent.match(/iPhone/i)) {
   for (i=0; i<metas.length; i++) {
     if (metas[i].name == "viewport") {
@@ -15,8 +16,8 @@ function gestureStart() {
     }
   }
 }
- var imgs = ["IMG_752.jpg", "IMG_7115.jpg"], k=0; 
  function changeImg() { 
    document.getElementById("myimg").src = imgs[k]; 
    if (k++ == imgs.length ) k=0; 
- } setInterval ( "changeImg()", 3000);
+ } 
+ setInterval ( "changeImg()", 3000);
