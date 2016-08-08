@@ -21,7 +21,6 @@ function gestureStart() {
    if (k++ == imgs.length ) 
    {
      k=0; 
-     document.getElementById("myimg").src = imgs[k];
    }
  } 
  setInterval ( "changeImg()", 5000);
