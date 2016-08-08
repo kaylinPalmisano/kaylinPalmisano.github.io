@@ -256,7 +256,7 @@ footer {
   font-size:15px;
   width:270px;
   float:left;
-  padding-top:10px;
+  bottom:20px;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
