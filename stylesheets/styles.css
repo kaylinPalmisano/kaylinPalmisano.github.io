@@ -98,6 +98,10 @@ a large{
   font-size:20px;
 }
 
+a:hover large {
+  color:#fa8072;
+}
+
 a:hover {
   color:#fa8072;
 }
