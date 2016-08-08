@@ -1,4 +1,4 @@
-var imgs = ["IMG_7252.jpg", "IMG_7115.jpg"], k=0;
+var imgs = ["IMG_7115.jpg", "IMG_7252.jpg"], k=0;
  function changeImg() { 
    document.getElementById("myimg").src = imgs[k]; 
    if (k++ == imgs.length) 
