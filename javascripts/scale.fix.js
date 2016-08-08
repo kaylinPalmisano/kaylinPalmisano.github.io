@@ -18,6 +18,10 @@ function gestureStart() {
 }
  function changeImg() { 
    document.getElementById("myimg").src = imgs[k]; 
-   if (k++ == imgs.length ) k=0; 
+   if (k++ == imgs.length ) 
+   {
+     k=0; 
+     document.getElementById("myimg").src = imgs[k];
+   }
  } 
- setInterval ( "changeImg()", 10000);
+ setInterval ( "changeImg()", 5000);
