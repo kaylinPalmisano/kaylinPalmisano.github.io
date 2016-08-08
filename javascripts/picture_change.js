@@ -7,4 +7,4 @@ var imgs = ["IMG_7115.jpg", "IMG_7252.jpg"], k=0;
      setTimeout('changeImg()', 3000);
    }
  } 
-  onload=function(){changeImg();}
+  onload=function(){setTimeout('changeImg()', 3000)}
