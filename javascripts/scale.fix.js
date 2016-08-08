@@ -1,6 +1,6 @@
 var metas = document.getElementsByTagName('meta');
 var i;
-var imgs = ["IMG_7115.jpg", "IMG_7572_2.jpg"], k=0;
+var imgs = ["IMG_7115.jpg", "IMG_7252_2.jpg"], k=0;
 if (navigator.userAgent.match(/iPhone/i)) {
   for (i=0; i<metas.length; i++) {
     if (metas[i].name == "viewport") {
@@ -23,4 +23,4 @@ function gestureStart() {
      k=0; 
    }
  } 
- onload=function(){setTimeout('changeImg()',5000)} 
+ onload=function(){setTimeout('changeImg()',4000)} 
