@@ -18,9 +18,9 @@ function gestureStart() {
 }
  function changeImg() { 
    document.getElementById("myimg").src = imgs[k]; 
-   if (k++ == imgs.length - 1) 
+   if (k++ == imgs.length) 
    {
      k=0; 
    }
  } 
- setInterval ( "changeImg()", 5000);
+ onload=function(){setTimeout('changeImg()',5000)} 
