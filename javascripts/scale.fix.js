@@ -23,4 +23,4 @@ function gestureStart() {
      k=0; 
    }
  } 
- onload=function(){setTimeout('changeImg()', 5000)} 
+ onload=function(){setTimeout('changeImg()', 3000)} 
