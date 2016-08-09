@@ -72,7 +72,7 @@ p, ul, ol, table, pre, dl {
 }
 
 p.thick{
-  font-weight = 900;
+  font-weight: 900;
 }
 
 h1, h2, h3 {
