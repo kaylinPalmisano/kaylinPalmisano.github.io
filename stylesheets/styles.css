@@ -81,16 +81,6 @@ div.noMarg{
   margin:0px;
 }
 
-div.colors{
-  width:20px;
-  float:right;
-  padding-bottom:0px;
-  padding-top:-300px;
-  padding-right:525px;
-  margin:0px;
-}
-
-
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
@@ -195,11 +185,6 @@ th {
 img {
   max-width:100%;
   border-radius: 25px;
-}
-
-img.noBorder{
-  margin:0px;
-  padding:0px;
 }
 
 header {
