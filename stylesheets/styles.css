@@ -70,6 +70,8 @@ h1, h2, h3, h4, h5 {
 div.lighter{
   color:#b6b5b5;
   font-size:13px;
+  padding:0px;
+  margin:0px;
 }
 
 p, ul, ol, table, pre, dl {
