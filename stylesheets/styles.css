@@ -86,9 +86,6 @@ div.colors{
   padding:0px;
 }
 
-div.content{
-  margin:120 0 0 375px;
-}
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
@@ -194,6 +191,10 @@ th {
 img {
   max-width:100%;
   border-radius: 25px;
+}
+
+img.noBorder{
+  border-radius: 0px;
 }
 
 header {
