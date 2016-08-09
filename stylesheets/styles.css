@@ -75,6 +75,10 @@ p.thick{
   font-weight: 900;
 }
 
+p.italic{
+  font-style:italic;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
