@@ -82,6 +82,7 @@ div.noMarg{
 }
 
 div.colors{
+  float:right;
   padding:120 0 0 350px;
   margin:0px;
 }
